@@ -1,8 +1,5 @@
-var wol = require("wake_on_lan");
 var dgram = require("dgram");
 var net  = require('net');
-var server = dgram.createSocket("udp4");
-var MAC = process.argv.slice(2)[0];
 const { exec } = require("child_process");
 
 
